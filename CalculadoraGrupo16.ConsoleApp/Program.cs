@@ -21,7 +21,7 @@ namespace CalculadoraGrupo16.ConsoleApp
             Console.WriteLine($"A multiplicação de {a} por {b} é: {resultadoMultiplicacao}");
 
             Console.ReadLine();
-        }                                   
+        }
     }
- }
-    
+}
+
