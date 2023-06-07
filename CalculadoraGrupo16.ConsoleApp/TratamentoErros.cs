@@ -17,13 +17,15 @@ namespace CalculadoraGrupo16.ConsoleApp
             }
         }
 
-        public static void VerificaErrosNasContas(decimal numero1, decimal numero2)
+        public static bool VerificaErrosNasContas(decimal numero1, decimal numero2)
         {
             VerificaDivisaoPor0(numero1, numero2);
-            if(erros.Count > 0)
+            if (erros.Count > 0)
             {
-                return;
+                return true;
             }
+            else
+                return false;
         }
 
 

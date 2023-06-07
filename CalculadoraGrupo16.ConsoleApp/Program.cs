@@ -69,8 +69,9 @@
 
                 else if (ehDivisao)
                 {
-                    
-
+                    if (TratamentoErros.VerificaErrosNasContas(primeiroNumero, segundoNumero) == true)
+                        break;
+                   resultado = Divisao.FazerDivisao(primeiroNumero, segundoNumero);
                 }
                 
 
