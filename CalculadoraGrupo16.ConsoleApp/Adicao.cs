@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace CalculadoraGrupo16.ConsoleApp
 {
-    internal class Adicao
-    {
-        public class OperacaoSoma
-        {
-            public static double Calcular(double a, double b)
+    public static class Adicao
+    {       
+            public static decimal Calcular(decimal primeiroNumero, decimal segundoNumero)
             {
-                return a + b;
+                return primeiroNumero + segundoNumero;
             }
-        }
     }
 }

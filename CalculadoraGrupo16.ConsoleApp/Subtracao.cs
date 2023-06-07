@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace CalculadoraGrupo16.ConsoleApp
 {
-    internal class Subtracao
-    {
-        public class OperacaoSubtrair
-        {
-            public static double Calcular(double a, double b)
+    public static class Subtracao
+    {       
+            public static decimal Calcular(decimal a, decimal b)
             {
                 return a - b;
-            }
-        }
+            }       
     }
 }

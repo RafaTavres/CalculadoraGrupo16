@@ -57,19 +57,18 @@ namespace CalculadoraGrupo16.ConsoleApp
 
                 if (ehAdicao)
                 {
-                    
+                    resultado = Adicao.Calcular(primeiroNumero, segundoNumero);
                 }
 
                 else if (ehSubtrair)
                 {
-                    
+                    resultado = Subtracao.Calcular(primeiroNumero, segundoNumero);
                 }
 
                 else if (ehMultiplicacao)
                 {
-                    
+                    resultado = Multiplicacao.Calcular(primeiroNumero, segundoNumero);
                 }
-
 
                 else if (ehDivisao)
                 {
