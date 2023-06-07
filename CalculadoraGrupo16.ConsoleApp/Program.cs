@@ -76,8 +76,10 @@ namespace CalculadoraGrupo16.ConsoleApp
                         break;
                    resultado = Divisao.FazerDivisao(primeiroNumero, segundoNumero);
                 }
-                
 
+                decimal resultadoFormatado = Math.Round(resultado, 2);
+                Console.WriteLine("O resultado da operação é: " + resultadoFormatado);
+                Console.ReadLine();
 
             } while (true);
 
